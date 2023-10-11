@@ -16,3 +16,9 @@ python3 main.py <filename> <dup> <idioma>
   filename: **ruta** al fichero que contiene la lista de palabras, una por línea
   dup: **yes|no**, yes para eliminar palabras duplicadas, no para mantener la lista
   idioma: **sp|en**, sp para español en los textos descriptivos, en para inglés
+
+## Ejecución automatizada
+
+make run
+
+make run FILENAME=words.txt IDIOMA=sp
